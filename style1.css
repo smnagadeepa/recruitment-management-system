@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+  }
+  html,body{
+    background: -webkit-linear-gradient(left, #9896F0,#FBC8D5);
+    place-items: center;
+    
+  }
+  .login-box{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-size: 30px;
+  }
+.login-inbox {
+    width: 410px;
+    height: 410px;
+    background-color: white;
+    text-align: center;
+    padding: 50px;
+    border-radius: 10px;
+    font-size: 30px;
+  }
+  .login-text{
+    font-size: 30px;
+    text-align:center;
+    color:black;
+    padding: 10px;
+    }
+    .login-text1{
+      font-size: 20px;
+      text-align:center;
+      color:black;
+      padding: 10px;
+      }
+    .signup-link{
+        color: black;
+        font-size: 20px;
+    }
+    .signup-link1{
+      color: black;
+      font-size: 18px;
+      text-align: left;
+  }
+    .register-box{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      font-size: 30px;
+
+    }
+  .register-inbox {
+      width: 500px;
+      height: 400px;
+      background-color: white;
+      text-align: center;
+      padding: 50px;
+      border-radius: 10px;
+      font-size: 30px;
+    }
+    .register-text{
+      font-size: 30px;
+      text-align:center;
+      color:black;
+      padding: 20px;
+      }
+  .vertical-box {
+    height: 150px;
+    width:97%;
+    text-align: center;
+    color: #fff;
+    line-height: 100px;
+    box-sizing:border-box;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+  .horizontal-box {
+    display: flex;
+    column-gap: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .horizontal-box .box1 {
+    margin: 0;
+    flex: 0 0 300px;
+    height: 530px;
+    border: 3px solid #000000; 
+    border-radius: 10px;
+  }
+  .horizontal-box .box2 {
+    margin: 0;
+    flex: 0 0 1180px;
+    height: 530px;
+    border: 3px solid black; 
+    border-radius: 10px;
+  }
+  .horizontal-box .box2 .register{
+    box-sizing: border-box;
+    border: 1px solid black;
+    width: 90%;
+    height: 80%;
+    align-items: center;
+    background-color: white;
+    margin: 60px;
+    border-radius: 20px;
+    
+  }
+  .register{
+    font-size: 30px;
+    text-align:center;
+    color: blue;
+    line-height: 1.5;
+    padding: 15px;
+  }
+
+  .box1 button{
+    border:1px solid black;
+    color: black;
+    padding:20px;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 30px;
+    text-align: center;
+    background: -webkit-linear-gradient(right, #FBEE97, #ADEDD5, #FBEE97, #ADEDD5);
+}
+ .update button{
+    padding:20px;
+    margin-left: 250px;
+    margin-top: 350px;
+    border-radius: 10px;
+    font-size: 30px;
+    text-align: center;
+    background: -webkit-linear-gradient(right, #FBEE97, #ADEDD5, #FBEE97, #ADEDD5);
+
+ }
+ .posted button{
+  padding:20px;
+    margin-left: 450px;
+    margin-top: 70px;
+    border-radius: 10px;
+    font-size: 30px;
+    text-align: center;
+    background: -webkit-linear-gradient(right, #FBEE97, #ADEDD5, #FBEE97, #ADEDD5);
+
+ }
+.vertical-box img{
+  float: left;
+  border-radius: 50%; 
+  margin-left: 30px; 
+  margin-top: 20px;
+  width:"100px"; 
+  height:"100px";
+
+}
+.vertical-box .wel{
+  float:left;
+  padding-left:250px; 
+  padding-right: 200px; 
+  font-size: 20px; 
+  margin-top: 20px;
+
+}
+.vertical-box .logout{
+  float: inline-end; 
+  font-size: 20px; 
+  font-size: 70px; 
+  padding-left: 150px;
+ }
+ .vertical-box button{
+  background-color: red; 
+  border-radius: 15px; 
+  padding: 20px; 
+  font-size:20px;
+  margin-right:30px;
+}
+.rcontainer {
+  display: flex;
+  }
+  .rbox {
+  padding: 20px; 
+  box-sizing: border-box;
+  }
+  .rboximg{
+      margin-top: 200px;
+      margin-left: 200px;
+      margin-bottom: 200px;
+      margin-right: 200px;
+  }
+  .rbox1 {
+  box-sizing: border-box;
+      width: 500px;
+      height: 500px;
+      border: 3px solid black;
+      border-radius: 25px;
+      padding: 20px;
+      margin-left: 800px;
+      margin-top: 150px;
+      margin-bottom: 150px;
+      
+      position: absolute;
+      background-color: white;
+      
+     }
+  .rde1{
+      font-size: 30px;
+      
+      font-family: 'Times New Roman', Times, serif;
+      color: blue;
+      line-height: 1.5;
+      padding: 10px;
+      
+
+  }
+  .ccontainer {
+    display: flex;
+    }
+    .cbox {
+    padding: 20px; 
+    box-sizing: border-box;
+    }
+    .cboximg{
+        margin-top: 200px;
+        margin-left: 200px;
+        margin-bottom: 200px;
+        margin-right: 200px;
+    }
+    .cbox1 {
+    box-sizing: border-box;
+        width: 500px;
+        height: 500px;
+        border: 3px solid black;
+        border-radius: 25px;
+        padding: 20px;
+        margin-left: 800px;
+        margin-top: 150px;
+        margin-bottom: 150px;
+        
+        position: absolute;
+        background-color: white;
+        
+       }
+    .cde1{
+        font-size: 30px;
+        font-family: 'Times New Roman', Times, serif;
+        color: blue;
+        line-height: 1.5;
+        padding: 10px;
+      }
+      .posted-job{
+        font-size: 30px;
+      }
+      
+  .text1 img{
+    margin-top: 50px;
+    margin-left: 400px;
+    font-size: 30px;
+    
+  }
+
+  .form-container{
+    font-size: 30px;
+    margin-top: 50px;
+  }
+  
+  .text1{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 140px;
+  }
+  .posted-jobs{
+    font-size: 20px;
+    text-align: center;
+  }
+  .ava{
+    font-size: 20px;
+    text-align: center;
+  }
+  
